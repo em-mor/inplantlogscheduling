@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import numpy as np
 from simresults import SimResults
-from charging_station import chargingstation
+from Static_system_charging_station import chargingstation
 from Static_system_vehicle import AMR
 from Static_system_production_station import ProductionStation
 from Static_system_supervisor import Supervisor
