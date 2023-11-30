@@ -4,10 +4,10 @@ import time
 import pandas as pd
 import numpy as np
 from simresults import SimResults
-from charging_station import chargingstation
-from amr import AMR
-from production_station import ProductionStation
-from supervisor import Supervisor
+from Dynamic_system_charging_station import chargingstation
+from Dynamic_system_vehicle import AMR
+from Dynamic_system_production_station import ProductionStation
+from Dynamic_system_supervisor import Supervisor
 
 class ProductionModel(Model):
     
